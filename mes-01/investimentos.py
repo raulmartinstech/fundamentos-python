@@ -4,7 +4,7 @@
 capital = float(input("Insira o seu capital inicial: "))
 
 # 2. Solicita e captura a taxa de juros mensal
-taxa = float(input("Insira a taxa de juros menssal: "))
+taxa = float(input("Insira a taxa de juros mensal: "))
 
 # 3. Solicita e captura o número de meses
 tempo = int(input("Insira o número de meses: "))
