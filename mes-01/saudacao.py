@@ -8,7 +8,7 @@ nome = input ("Qual é o seu nome? ")
 # 2. Novamente usamos input(), mas agora quremos um número.
 # A entrada do input() sempre é string. Para tratar como número, usamos int() para converter.
 
-idade = int(input("Qual é a sua idade?" )) # Conversão explícita de string para inteiro.
+idade = int(input("Qual é a sua idade? ")) # Conversão explícita de string para inteiro.
 
 # 3. Definimos o ano atual como constante (valor fixo do programa).
 ano_atual = 2026
@@ -19,6 +19,3 @@ ano_nascimento = ano_atual - idade
 # 5. A função print() exibe as informações no terminal.
 # Usamos f-string (string formatada) com o prefixo "f" para inserir variáveis diretamente.
 print(f"Olá, {nome}! Você nasceu aproximadamente em {ano_nascimento}.")
-
-
-
